@@ -1,0 +1,30 @@
+{
+  "name": "german-messenger-bot",
+  "version": "1.0.0",
+  "description": "German Language FB messenger bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:abumostafa/german-messenger-bot.git"
+  },
+  "keywords": [
+    "german",
+    "deutsch"
+  ],
+  "author": "Ahmed Abumostafa",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/abumostafa/german-messenger-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "escape-string-regexp": "^1.0.5",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.6",
+    "promise": "^7.1.1",
+    "request": "^2.79.0",
+    "uuid4": "^1.0.0"
+  }
+}
